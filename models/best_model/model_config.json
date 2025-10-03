@@ -1,0 +1,33 @@
+{
+  "model_type": "Logistic Regression",
+  "performance_metrics": {
+    "accuracy": 0.7903225806451613,
+    "precision": 0.8118693134822168,
+    "recall": 0.7903225806451613,
+    "f1_score": 0.7986977483970378
+  },
+  "training_data": {
+    "total_samples": 309,
+    "training_samples": 247,
+    "test_samples": 62,
+    "feature_dimensions": 384
+  },
+  "model_parameters": {
+    "random_seed": 42,
+    "test_size": 0.2,
+    "stratify": true
+  },
+  "company_objectives": "We provide mobile wallet services and want to partner with companies that support digital payments adoption in Africa, particularly focusing on fintech solutions for small businesses and financial inclusion initiatives.",
+  "label_mapping": {
+    "0": "Not Relevant",
+    "1": "Indirectly Useful",
+    "2": "Directly Relevant"
+  },
+  "thresholds": {
+    "direct_threshold": 0.65,
+    "indirect_threshold": 0.45,
+    "high_confidence_threshold": 0.85,
+    "medium_confidence_threshold": 0.70,
+    "low_similarity_threshold": 0.30
+  }
+}
